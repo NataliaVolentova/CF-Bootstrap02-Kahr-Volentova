@@ -1,0 +1,16 @@
+.img {
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.name {
+    text-align: center;
+}
+
+.director {
+    text-align: center
+}
+
+.description {
+    text-align: center
+}

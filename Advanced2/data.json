@@ -1,0 +1,27 @@
+var silent = `[{
+   "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua." ,
+   "director":"Naoko Yamada",
+   "name":"A Silent Voice",
+   "img":"img/a_silent_voice.jpg"
+ }]`;
+
+var weathering = `[{
+   "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+   "director": "Makoto Shinkai",
+   "name": "Weathring with You",
+   "img": "img/weathering_with_you.jpg"
+ }]`;
+
+var your = `[{
+   "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+   "director": "Makoto Shinkai",
+   "name": "Your Name",
+   "img": "img/your_name.jpg"
+ }]`;
+
+var mononoke = `[{
+   "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+   "director": "Hayao Miyazaki",
+   "name": "Princess Mononoke",
+   "img": "img/princess_mononoke.jpg"
+ }]`;

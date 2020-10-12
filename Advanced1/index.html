@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+
+    ------------------------------Notes ------------------------------------------------------
+    
+        Str+D =verändert alle objekte 
+    -------------------------------------------------------------------------------------------
+
+
+    add as a Bootstrap CND (content delivery network)-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+
+
+    <!--to turn on the responsive feature of a webpage
+    viewport - user´s visible area of a web page
+    initial-scale = sets the initial zoom level when page is first loaded 
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style></style>
+
+</head>
+
+
+<body>
+
+    <div class="nav">
+        <a href="" class="navbar-brand">Plot</a>
+        <a href="" class="navbar-brand">Actors</a>
+        <a href="" class="navbar-brand">Reviews</a>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-movie1-tab" data-toggle="pill" href="#v-pills-movie1" role="tab" aria-controls="v-pills-movie1" aria-selected="true">Actor 1</a>
+                <a class="nav-link" id="v-pills-movie2-tab" data-toggle="pill" href="#v-pills-movie2" role="tab" aria-controls="v-pills-movie2" aria-selected="false">Actor 2</a>
+                <a class="nav-link" id="v-pills-movie3-tab" data-toggle="pill" href="#v-pills-movie3" role="tab" aria-controls="v-pills-movie3" aria-selected="false">Actor 3</a>
+                <a class="nav-link" id="v-pills-movie4-tab" data-toggle="pill" href="#v-pills-movie4" role="tab" aria-controls="v-pills-movie4" aria-selected="false">Actor 4</a>
+            </div>
+        </div>
+        <div class="col-9" id="col-9">
+
+            <div class="tab-content" id="v-pills-tabContent">
+                <!--
+                <div class="tab-pane fade show active" id="v-pills-movie1" role="tabpanel" aria-labelledby="v-pills-movie1-tab"></div>
+                <div class="tab-pane fade" id="v-pills-movie2" role="tabpanel" aria-labelledby="v-pills-movie2-tab"></div>
+                <div class="tab-pane fade" id="v-pills-movie3" role="tabpanel" aria-labelledby="v-pills-movie3-tab"></div>
+                <div class="tab-pane fade" id="v-pills-movie4" role="tabpanel" aria-labelledby="v-pills-movie4-tab"></div>-->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="data.json"></script>
+    <!--.json  -->
+    <script src="script.js"></script>
+    <!--.js  -->
+</body>
+
+</html>
