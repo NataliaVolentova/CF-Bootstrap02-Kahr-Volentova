@@ -3,7 +3,7 @@ console.table(dataObject);
 
 for (let i = 0; i < dataObject.length; i++) {
     $("#v-pills-tabContent").after(`
-    <div class="tab-pane fade " id="v-pills-movie${dataObject[i].id}" role="tabpanel" aria-labelledby="v-pills-movie${dataObject[i].id}-tab">
+    <div class="tab tab-pane fade" id="v-pills-movie${dataObject[i].id}" role="tabpanel" aria-labelledby="v-pills-movie${dataObject[i].id}-tab">
     <p>${dataObject[i].name}</p>
     <p>${dataObject[i].director}</p>
     <p>${dataObject[i].description}</p>
@@ -11,5 +11,7 @@ for (let i = 0; i < dataObject.length; i++) {
     </div>
     `)
 
-
 }
+
+
+/*<div class="tab-pane fade" id="v-pills-movie${dataObject[i].id}" role="tabpanel" aria-labelledby="v-pills-movie${dataObject[i].id}-tab"> */
